@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "foodswipe",
+    "slug": "foodswipe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/MainLogo_Teal.png",
+    "splash": {
+      "image": "./src/assets/MainLogo_Teal.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.foodswipe.ng",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/MainLogo_Teal.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/MainLogo_Teal.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad8fff79-9ea3-4398-80e6-4d57d72adc74"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

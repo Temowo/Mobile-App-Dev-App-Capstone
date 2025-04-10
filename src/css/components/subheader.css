@@ -1,0 +1,8 @@
+.subheader {
+  @apply flex justify-between items-center -mt-6;
+}
+
+.subheader .page-title {
+  @apply hidden font-medium text-2xl
+    xl:block;
+}

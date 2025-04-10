@@ -1,0 +1,32 @@
+.orders-section .row-0 {
+  @apply mt-5 mb-5;
+}
+
+.orders-section .row-1 {
+  @apply flex flex-col;
+  @apply md:grid grid-cols-3;
+}
+
+.orders-section .table {
+  @apply border-collapse w-full;
+  @apply table-fixed;
+}
+
+.orders-section .row-1 .card {
+  @apply m-2;
+  /* @apply w-72 md:w-auto; */
+  @apply h-5;
+  @apply flex items-center;
+}
+
+.orders-section .row-2 .card {
+  @apply m-2;
+  /* @apply w-72 md:w-auto; */
+  @apply h-5;
+  @apply flex items-center;
+}
+
+.orders-section .details {
+  @apply bg-white rounded-lg shadow-sm p-6 m-2;
+  /* @apply w-72 md:w-auto; */
+}

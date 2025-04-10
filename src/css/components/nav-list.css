@@ -1,0 +1,72 @@
+.main-list {
+  @apply flex justify-center items-center w-full h-16 xl:hidden;
+}
+
+.main-list .row-0 {
+  @apply lg:w-[97%] md:w-[96%] w-[92%] z-10;
+}
+.main-list .row-0 .list-box {
+  @apply relative mt-10;
+}
+
+.main-list .row-0 .list-btn {
+  @apply relative w-full py-3 pl-3 pr-10 text-left bg-white rounded-lg shadow cursor-default focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-foodswipe-turquoise focus-visible:ring-offset-2 focus-visible:border-foodswipe-turquoise;
+}
+
+.list-btn .span-1 {
+  @apply block truncate;
+}
+
+.list-btn .span-2 {
+  @apply absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none;
+}
+
+.list-btn .span-2 .icon {
+  @apply w-5 h-5 text-gray-400;
+}
+.leave {
+  @apply transition ease-in duration-100;
+}
+
+.leave-from {
+  @apply opacity-100;
+}
+
+.leave-to {
+  @apply opacity-0;
+}
+
+.list-box-options {
+  @apply absolute w-full py-1 mt-1 overflow-auto bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none;
+}
+
+.list-box-option {
+  @apply cursor-default select-none relative py-2 pl-2 pr-4;
+}
+
+.list-box-option-active {
+  @apply text-foodswipe-turquoise bg-[#f6eef4a8];
+}
+
+.list-box-option-inactive {
+  @apply text-gray-900;
+}
+
+.list-box-option .navlink {
+  @apply flex justify-between flex-row-reverse;
+}
+.list-box-option .navlink .span-1 {
+  @apply inset-y-0 left-0 flex items-center pl-3 text-foodswipe-turquoise;
+}
+
+.list-box-option .navlink .span-1 {
+  @apply inset-y-0 left-0 flex items-center pl-3 text-foodswipe-turquoise;
+}
+
+.list-icon {
+  @apply flex justify-end items-center;
+}
+
+.nav-icon {
+  @apply w-4 h-4;
+}

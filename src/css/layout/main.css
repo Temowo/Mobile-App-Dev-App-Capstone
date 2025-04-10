@@ -1,0 +1,20 @@
+.main {
+  @apply w-full;
+}
+
+.main-flex {
+  @apply flex-none xl:flex pt-16;
+}
+
+.main-section {
+  @apply w-full h-screen p-5
+    lg:px-4 lg:pt-5;
+}
+
+.main-section .spinner {
+  @apply absolute top-[25%] left-[calc(50%-2rem)];
+}
+
+.main-section .spinner path {
+  @apply stroke-foodswipe-turquoise;
+}

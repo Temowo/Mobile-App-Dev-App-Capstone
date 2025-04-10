@@ -1,0 +1,26 @@
+.menu-section .row-0 {
+  @apply mt-5 mb-5;
+}
+
+.menu-section .row-1 {
+  @apply mt-16;
+}
+
+.menu-section .table {
+  @apply border-collapse w-full;
+  @apply table-fixed;
+}
+
+.menu-section .row-1 .card {
+  @apply m-2;
+  @apply h-5;
+  @apply flex items-center;
+}
+
+.menu-section .row-2 {
+  @apply mt-10;
+}
+
+.menu-section .spinner {
+  @apply md:mt-20;
+}

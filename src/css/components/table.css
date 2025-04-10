@@ -1,0 +1,81 @@
+.table {
+  @apply border-collapse w-full;
+}
+
+.table tbody tr {
+  @apply hover:bg-[#ecf5ff] transition-all duration-200 hover:cursor-pointer border-b border-b-gray-100;
+}
+
+.table th,
+.table td {
+  @apply text-left p-2 text-[15px] lg:p-4 text-base;
+}
+
+.table th {
+  @apply text-[0.6rem] md:text-tiny;
+  @apply md:text-tiny;
+  @apply text-gray-700 font-semibold;
+}
+
+.table th.center {
+  @apply text-center;
+}
+
+.table td {
+  @apply font-normal text-gray-600 text-xs md:text-sm;
+}
+
+.table td .has-copy {
+  @apply flex items-center gap-3;
+}
+
+.table td .has-copy .copy-icon {
+  @apply h-8 w-8 rounded-full flex justify-center items-center opacity-0;
+}
+
+.table tbody tr:hover .copy-icon {
+  @apply opacity-100 visible;
+}
+
+.table tbody tr:hover .copy-icon {
+  @apply hover:bg-gray-200 transition-colors ease-in-out duration-300;
+}
+
+.table td .has-dropdown {
+  @apply relative;
+}
+
+.table td .has-dropdown svg {
+  @apply m-auto;
+}
+
+.table td .action-menu {
+  @apply bg-white  border-gray-200 absolute w-[120px] -left-[72px] z-50 py-2 opacity-0 invisible;
+}
+
+.table td .has-dropdown:hover .action-menu {
+  @apply opacity-100 visible;
+}
+
+.table .action-menu.active {
+  @apply opacity-100 visible;
+}
+
+.table .action-menu div {
+  @apply py-1 px-3 hover:bg-gray-100 text-[15px] text-gray-600;
+}
+
+.table td span.status {
+  @apply w-[3rem] md:w-[6rem] text-center text-[15px] inline-block font-medium py-1 rounded-3xl;
+}
+.table td.success span {
+  @apply text-white py-1 rounded-3xl bg-[#0A0];
+}
+
+.table td.pending span {
+  @apply bg-orange-500 text-white;
+}
+
+.table td.failed span {
+  @apply bg-red-600 text-white;
+}

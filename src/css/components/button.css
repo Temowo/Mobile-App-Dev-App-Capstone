@@ -1,0 +1,3 @@
+.button {
+  @apply font-bold rounded text-center bg-transparent h-10;
+}

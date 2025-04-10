@@ -1,0 +1,11 @@
+.header {
+  @apply bg-white fixed top-0 left-0 w-full h-16 px-0 md:px-6 flex justify-between items-center z-[1000];
+}
+
+.brand-area {
+  @apply flex justify-between items-center h-24 pr-6 w-[18rem] transition-all ease-linear duration-[150ms];
+}
+
+.brand {
+  @apply h-8 w-36;
+}

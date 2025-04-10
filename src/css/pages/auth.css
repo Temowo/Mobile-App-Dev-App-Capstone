@@ -1,0 +1,103 @@
+.auth-section {
+  @apply flex;
+  @apply mt-32;
+  @apply justify-center;
+}
+
+/* .info-area {
+  @apply xl:p-12 lg:block hidden bg-blue-500 h-screen w-2/5 p-8 relative;
+}
+
+.info-area .brand {
+  @apply h-20 w-20 mb-14;
+}
+
+.info-area .brand img {
+  @apply object-contain;
+}
+
+.welcome-area {
+  @apply mb-24;
+}
+
+.welcome-area h1 {
+  @apply text-2xl font-semibold mb-5;
+}
+
+.welcome-area p {
+  @apply text-slate-100 text-base;
+}
+
+.instructions h4 {
+  @apply font-semibold mb-5 text-white;
+}
+
+.instructions ul {
+  @apply list-disc px-3;
+}
+
+.instructions li {
+  @apply py-2;
+}
+
+.info-area .support {
+  @apply xl:flex lg:block absolute bottom-0  mb-12 flex justify-between items-center;
+  width: calc(100% - 6rem);
+}
+
+.support-icon {
+  @apply h-12 w-12 bg-blue-400 rounded-full items-center flex justify-center;
+}
+
+.support p {
+  @apply lg:mt-5 text-base text-white;
+} */
+
+.form-area {
+  @apply lg:p-12 lg:w-3/4 flex items-center justify-center w-full p-4 bg-slate-50;
+}
+
+.auth-card {
+  @apply lg:max-w-lg w-full;
+}
+
+.auth-card-header {
+  @apply text-center mb-10;
+}
+
+.auth-card-header .brand {
+  @apply lg:hidden mb-24 flex flex-col items-center w-auto h-auto;
+}
+
+.auth-card-header .brand img {
+  @apply h-24 w-24 mb-5 object-contain;
+}
+
+.auth-card-header .brand h1 {
+  @apply text-2xl font-semibold;
+}
+
+.auth-card-header h3 {
+  @apply text-3xl font-semibold mb-3;
+}
+
+.auth-card-header p {
+  @apply text-base mb-3;
+}
+
+.auth-card-footer {
+  @apply flex justify-between;
+  @apply text-center mt-5;
+}
+
+.auth-card-footer a {
+  @apply text-base text-blue-500 hover:underline;
+}
+
+.auth-card .support {
+  @apply lg:hidden items-center justify-between mt-20 flex;
+}
+
+.auth-card .support p {
+  @apply sm:text-base text-sm;
+}

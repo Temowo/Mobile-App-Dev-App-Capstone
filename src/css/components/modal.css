@@ -1,0 +1,78 @@
+.modal-open {
+  @apply overflow-hidden;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.25);
+  @apply w-screen h-screen fixed top-0 left-0 z-[1000] overflow-y-scroll;
+  @apply mt-16;
+}
+
+.modal {
+  @apply bg-white p-3 sm:my-20 sm:mx-5 sm:p-3 lg:max-w-[35rem] sm:h-auto h-screen lg:my-12 md:mx-auto lg:p-10 sm:rounded-lg shadow-lg flex flex-col justify-center items-center relative;
+}
+
+.close {
+  @apply cursor-pointer absolute top-0 right-0 m-4;
+}
+
+.close svg {
+  @apply w-8 h-8 fill-gray-400;
+}
+
+.avatar {
+  @apply w-24 h-24 rounded-full mb-10 bg-gray-100 flex items-center justify-center overflow-hidden;
+}
+
+.avatar svg {
+  @apply text-7xl mt-8 bg-blue-400;
+}
+
+.modal-content {
+  @apply w-full;
+}
+
+.modal-title {
+  @apply text-xl font-semibold mb-10 text-gray-900;
+}
+
+.modal-description {
+  @apply mb-5 text-base;
+}
+
+.modal .form-group input,
+.modal .form-group select {
+  @apply border bg-white h-[2.5rem] text-base;
+}
+
+.modal .form-group input[type="date"] {
+  @apply px-2 w-full;
+}
+
+.modal-actions {
+  @apply flex justify-between;
+}
+
+.job-title,
+.company {
+  @apply text-gray-600 mb-2;
+}
+
+.job-title {
+  @apply text-base font-medium uppercase tracking-widest;
+}
+
+.company {
+  @apply font-semibold;
+}
+
+.contact {
+  @apply flex flex-col items-center justify-center;
+}
+
+.contact .contact-item {
+  @apply flex flex-col items-center justify-center mb-5 bg-blue-400 h-14 w-14 rounded-full mt-10;
+}
+
+.contact .contact-item svg {
+  @apply text-3xl fill-white;
+}

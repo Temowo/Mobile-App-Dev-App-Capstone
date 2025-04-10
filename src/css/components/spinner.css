@@ -1,0 +1,34 @@
+.spinner {
+  @apply h-8 w-8 m-auto box-border;
+  border-radius: 50%;
+}
+
+.spinner svg {
+  /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; */
+  fill: none;
+  stroke: #f0f0f0;
+  stroke-width: 15;
+  stroke-linecap: round;
+  overflow: visible;
+  animation: rotate 1.1s linear 0s infinite;
+}
+
+.spinner path {
+  @apply stroke-white;
+}
+
+.spinner circle {
+  fill: none;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

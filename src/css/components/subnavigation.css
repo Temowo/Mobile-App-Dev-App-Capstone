@@ -1,0 +1,18 @@
+.subnav {
+  @apply mt-5 m-2;
+}
+
+.subnav-list {
+  @apply flex;
+}
+
+.subnav-item {
+  @apply mr-5;
+  @apply text-sm;
+  @apply md:text-lg;
+}
+
+.subnav-list .subnav-item a.active {
+  @apply text-foodswipe-turquoise;
+  @apply border-b-4 border-foodswipe-turquoise;
+}

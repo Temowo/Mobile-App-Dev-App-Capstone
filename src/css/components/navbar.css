@@ -1,0 +1,64 @@
+.navbar {
+  @apply hidden min-w-[16rem] bg-white pt-3 px-6 top-0 left-0 bottom-0 transition-all ease-linear duration-[150ms] static
+          xl:block;
+}
+
+.navbar-tooltip {
+  @apply flex justify-between items-center h-24;
+}
+
+.navbar-tooltip .brand {
+  @apply h-16 w-16;
+}
+
+.hamburger-icon svg {
+  @apply text-gray-500 text-3xl mr-8;
+}
+
+.navbar-list {
+  @apply mt-0 h-full fixed;
+}
+
+.navbar-list .navbar-item {
+  @apply block;
+}
+
+.navbar-list .navbar-item a {
+  @apply block justify-between items-center p-3 hover:text-foodswipe-turquoise  rounded-xl;
+}
+
+.navbar-list .navbar-item span {
+  @apply transition-all ease-linear duration-[5ms];
+}
+
+.navbar-list .navbar-item a.active {
+  @apply text-foodswipe-turquoise;
+}
+
+.navbar-list .navbar-item svg {
+  @apply inline mr-6 mb-1;
+}
+
+/**
+   * Actions when navbar is open
+   */
+
+.navbar.navbar-open {
+  @apply min-w-[6rem];
+}
+
+.navbar.navbar-open .navbar-list .navbar-item a {
+  @apply p-3;
+}
+
+.navbar.navbar-open .navbar-list .navbar-item span {
+  @apply opacity-0 hidden;
+}
+
+.navbar.navbar-open .navbar-list .navbar-item svg {
+  @apply m-0 block text-2xl;
+}
+
+.navbar-item-link {
+  @apply pr-[2rem];
+}

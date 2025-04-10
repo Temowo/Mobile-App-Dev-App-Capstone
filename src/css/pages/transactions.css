@@ -1,0 +1,14 @@
+.transaction-section .row-1 {
+  @apply mt-5 mb-5;
+}
+
+.transaction-section .table {
+  @apply border-collapse w-full;
+  @apply table-fixed;
+}
+
+.transaction-section .row-1 .card {
+  @apply m-2;
+  @apply h-5;
+  @apply flex items-center;
+}

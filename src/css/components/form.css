@@ -1,0 +1,23 @@
+.form-group {
+  @apply mb-8 relative  w-full;
+}
+
+label {
+  @apply mb-2.5 block;
+}
+
+.input {
+  @apply h-14 w-full bg-gray-100 border-2 px-4 text-base outline-0 rounded;
+}
+
+.input.hasIcon {
+  @apply pr-12;
+}
+
+.input-error {
+  @apply border-red-500 border;
+}
+
+.error-message {
+  @apply text-red-500 px-1 text-sm absolute left-0 -bottom-6;
+}

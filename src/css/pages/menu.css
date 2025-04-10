@@ -1,0 +1,11 @@
+.menu-section .row-0 {
+  @apply mt-5 mb-5;
+}
+
+.menu-section .row-2 {
+  @apply mt-10;
+}
+
+.menu-section .spinner {
+  @apply md:mt-20;
+}

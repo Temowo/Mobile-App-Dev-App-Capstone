@@ -1,0 +1,44 @@
+.home-section .row-0 {
+  @apply mt-5 mb-5;
+}
+.home-section .row-1 {
+  @apply grid grid-cols-1 gap-7 mb-5
+  lg:grid-cols-4;
+}
+.home-section .row-1 .card {
+  @apply flex;
+  @apply h-24;
+}
+
+.home-section .row-1 .card .icon {
+  @apply h-14 w-14 flex items-center justify-center rounded-full;
+}
+
+.home-section .row-1 .card .icon svg {
+  @apply text-white h-10 w-10;
+}
+
+/* .home-section .row-1 .card.available .icon {
+  @apply bg-foodswipe-turquoise;
+} */
+
+.home-section .row-1 .card.used .icon {
+  background-color: #0aa1dd;
+}
+
+.home-section .row-1 .card .text-content {
+  @apply flex flex-col justify-between items-center flex-1 text-center;
+}
+
+.home-section .row-1 .card .text-content h2 {
+  @apply font-medium text-2xl;
+}
+
+.home-section .row-1 .card.available .text-content h3 {
+  @apply text-foodswipe-turquoise;
+}
+
+.home-section .spinner {
+  @apply static;
+  @apply h-5 w-5 m-auto box-border;
+}
